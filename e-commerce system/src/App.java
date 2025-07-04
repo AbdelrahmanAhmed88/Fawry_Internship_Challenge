@@ -92,9 +92,9 @@ public class App {
         Customer customer = new Customer(0, "Abdelrahman", 20000);
 
         Cart cart = new Cart();
-        cart.add(cheese, 2);
-        cart.add(biscuits, 2);
-        cart.add(scratchCard, 1);
+        // cart.add(cheese, 2);
+        // cart.add(biscuits, 2);
+        // cart.add(scratchCard, 1);
         try {
             checkout(customer, cart);
         } catch (Exception e) {
